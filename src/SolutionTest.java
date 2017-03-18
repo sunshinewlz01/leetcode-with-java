@@ -9,9 +9,9 @@ public class SolutionTest {
         reverseIntegerTest();
     }
     public static void  reverseIntegerTest() {
-        int num = 1534236469;
+        int num = -156469;
         ReverseIntegerSolution reverseIntegerSolution = new ReverseIntegerSolution();
-        int reverseNum = reverseIntegerSolution.reverse(num);
+        int reverseNum = reverseIntegerSolution.reverse2(num);
         System.out.println(num);
         System.out.println(reverseNum);
     }

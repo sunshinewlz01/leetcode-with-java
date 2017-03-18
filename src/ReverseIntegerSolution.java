@@ -6,6 +6,17 @@ import static java.lang.Math.abs;
  * Created by weileizhe589 on 3/18/17.
  */
 public class ReverseIntegerSolution {
+    public int reverse2(int x) {
+        int reverseNum = 0;
+        while (x != 0) {
+            int temp = reverseNum * 10 + x % 10;
+            if (temp / 10 != reverseNum)
+                return 0;
+            reverseNum = temp;
+            x /= 10;
+        }
+        return reverseNum;
+    }
     public Integer reverse(Integer x) {
         Integer maxInteger = (int)Math.pow(2,31)-1;
         Integer minInteger = 0-(int)Math.pow(2,31);
