@@ -5,7 +5,15 @@ public class SolutionTest {
     public static void main(String args[]) {
 //        System.out.println("Hello JAVA!");
 //        twoSumTest();
-        addTwoNumbersTest();
+//        addTwoNumbersTest();
+        reverseIntegerTest();
+    }
+    public static void  reverseIntegerTest() {
+        int num = 1534236469;
+        ReverseIntegerSolution reverseIntegerSolution = new ReverseIntegerSolution();
+        int reverseNum = reverseIntegerSolution.reverse(num);
+        System.out.println(num);
+        System.out.println(reverseNum);
     }
     public static void twoSumTest() {
         int[] nums = {1,2,3,8,4,10,7,9};
