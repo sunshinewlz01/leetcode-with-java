@@ -6,7 +6,15 @@ public class SolutionTest {
 //        System.out.println("Hello JAVA!");
 //        twoSumTest();
 //        addTwoNumbersTest();
-        reverseIntegerTest();
+//        reverseIntegerTest();
+        lengthOfLongestSubstringTest();
+    }
+    public static void lengthOfLongestSubstringTest() {
+        String str = "fdsfadfgsggggggg";
+        LengthOfLongestSubstringSolution lengthOfLongestSubstringSolution = new LengthOfLongestSubstringSolution();
+        Integer lengthOfLongestSubstring = lengthOfLongestSubstringSolution.lengthOfLongestSubstring(str);
+        System.out.println(str);
+        System.out.println(lengthOfLongestSubstring);
     }
     public static void  reverseIntegerTest() {
         int num = -156469;
