@@ -1,3 +1,6 @@
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 /**
  * Created by weileizhe589 on 3/12/17.
  */
@@ -7,7 +10,17 @@ public class SolutionTest {
 //        twoSumTest();
 //        addTwoNumbersTest();
 //        reverseIntegerTest();
-        lengthOfLongestSubstringTest();
+//        lengthOfLongestSubstringTest();
+        medianOfTwoSortedArraysTest();
+    }
+    public static void medianOfTwoSortedArraysTest() {
+        int[] nums1 = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22};
+        int[] nums2 = {0,6};
+        MedianOfTwoSortedArraysSolution medianOfTwoSortedArraysSolution = new MedianOfTwoSortedArraysSolution();
+        double medianValue = medianOfTwoSortedArraysSolution.findMedianOfTwoSortedArrays(nums1,nums2);
+        System.out.println(Arrays.toString(nums1));
+        System.out.println(Arrays.toString(nums2));
+        System.out.println(medianValue);
     }
     public static void lengthOfLongestSubstringTest() {
         String str = "fdsfadfgsggggggg";
