@@ -14,10 +14,10 @@ public class SolutionTest {
         medianOfTwoSortedArraysTest();
     }
     public static void medianOfTwoSortedArraysTest() {
-        int[] nums1 = {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22};
-        int[] nums2 = {0,6};
+        int[] nums1 = {4,5};
+        int[] nums2 = {1,2,3};
         MedianOfTwoSortedArraysSolution medianOfTwoSortedArraysSolution = new MedianOfTwoSortedArraysSolution();
-        double medianValue = medianOfTwoSortedArraysSolution.findMedianOfTwoSortedArrays(nums1,nums2);
+        double medianValue = medianOfTwoSortedArraysSolution.findMedianOfTwoSortedArrays2(nums1,nums2);
         System.out.println(Arrays.toString(nums1));
         System.out.println(Arrays.toString(nums2));
         System.out.println(medianValue);
