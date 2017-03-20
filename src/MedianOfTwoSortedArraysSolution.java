@@ -39,12 +39,7 @@ public class MedianOfTwoSortedArraysSolution {
             if (i < len1 && nums2[j-1] > nums1[i]) {
                 iMin = i+1;
             } else if (i > 0 && nums1[i-1] > nums2[j]) {
-                iMin = i-1;
-                if (iMin == 0) {
-                    maxOfLeft = nums2[j-1];
-                    minOfRight = nums1[i];
-                    break;
-                }
+                iMax = i-1;
             } else {
                 if (i == 0) {
                     maxOfLeft = nums2[j-1];
