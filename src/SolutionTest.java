@@ -11,7 +11,15 @@ public class SolutionTest {
 //        addTwoNumbersTest();
 //        reverseIntegerTest();
 //        lengthOfLongestSubstringTest();
-        medianOfTwoSortedArraysTest();
+//        medianOfTwoSortedArraysTest();
+        longestPanlindromicSubstringTest();
+    }
+    public static void longestPanlindromicSubstringTest() {
+        String str = "abacd";
+        LongestPanlindromicSubstringSolution longestPanlindromicSubstringSolution = new LongestPanlindromicSubstringSolution();
+        String resultStr = longestPanlindromicSubstringSolution.longestPalindrome(str);
+        System.out.println(str);
+        System.out.println(resultStr);
     }
     public static void medianOfTwoSortedArraysTest() {
         int[] nums1 = {2,5,6,7,8};
