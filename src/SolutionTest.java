@@ -15,7 +15,7 @@ public class SolutionTest {
         longestPanlindromicSubstringTest();
     }
     public static void longestPanlindromicSubstringTest() {
-        String str = "abacd";
+        String str = "cbbd";
         LongestPanlindromicSubstringSolution longestPanlindromicSubstringSolution = new LongestPanlindromicSubstringSolution();
         String resultStr = longestPanlindromicSubstringSolution.longestPalindrome(str);
         System.out.println(str);

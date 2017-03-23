@@ -24,10 +24,11 @@ public class LongestPanlindromicSubstringSolution {
             start--;
             end++;
         }
-        result[0] = Math.max(result[0],end-start-1);
         if (result[0] < end-start-1) {
             result[1] = start+1;
         }
+        result[0] = Math.max(result[0],end-start-1);
+
 
     }
     public Boolean isPalindromic(String str,Integer start,Integer end) {
