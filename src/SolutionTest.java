@@ -12,7 +12,15 @@ public class SolutionTest {
 //        reverseIntegerTest();
 //        lengthOfLongestSubstringTest();
 //        medianOfTwoSortedArraysTest();
-        longestPanlindromicSubstringTest();
+//        longestPanlindromicSubstringTest();
+        atoiSolutionTest();
+    }
+    public static void atoiSolutionTest() {
+        String str = "12   3";
+        AtoiSolution atoiSolution = new AtoiSolution();
+        int result = atoiSolution.myAtoi(str);
+        System.out.println(str);
+        System.out.println(result);
     }
     public static void longestPanlindromicSubstringTest() {
         String str = "cbbd";
